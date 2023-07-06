@@ -37,3 +37,8 @@ yarn dev
 
 [<img src='img/SN/boosty.svg'>](https://boosty.to/codecrafters "Наш Boosty блог. Можете перейти и поддержать")
 
+[<img src='img/SN/vk.svg'>](https://vk.com/codecrafters2 "Паблик во ВК")
+
+[<img src='img/SN/tg.svg'>](https://t.me/tv_in_it "Телеграмм канал")
+
+[<img src='img/SN/yt.svg'>](https://www.youtube.com/channel/UCPb6M8aQbMiNTRCTldKBKYA "Наш ютуб")
