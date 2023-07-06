@@ -33,3 +33,6 @@ yarn
 yarn dev
 ```
 
+<h1>Наши социальные сети!<h1>
+[<img src='img/SN/boosty.svg'>](https://boosty.to/codecrafters "Наш Boosty блог. Можете перейти и поддержать")
+
