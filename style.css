@@ -51,18 +51,24 @@ table {
 @font-face {
     font-family: "Ubuntu";
     font-weight: 400;
-    src: url("/fonts/Ubuntu-Regular.ttf ");
+    src: 
+        url("/fonts/Ubuntu-Regular.ttf ") format("ttf"),
+        url("/fonts/Ubuntu-Regular.woff ") format("woff");
 }
 
 @font-face {
     font-family: "Ubuntu";
     font-weight: 700;
-    src: url("/fonts/Ubuntu-Medium.ttf");
+    src: 
+        url("/fonts/Ubuntu-Medium.ttf") format("ttf"),
+        url("/fonts/Ubuntu-Medium.woff") format("woff");
 }
 
 @font-face {
     font-family: "Nunito";
-    src: url("/fonts/Nunito-Bold.ttf");
+    src: 
+        url("/fonts/Nunito-Bold.ttf") format("ttf"),
+        url("/fonts/Nunito-Bold.woff") format("woff");
 }
 
 /* Сommon Style */
@@ -278,6 +284,8 @@ ul.nav__menu li a:hover{
   }
 
   .nav__mobile-menubtn img{
+    margin-top: 5px;
+    margin-right: 5px;
     width: 40px;
   }
 
@@ -288,8 +296,8 @@ ul.nav__menu li a:hover{
 
 
   .hero__img img{
-    width: 600px;
-    justify-content: center;
+    width: 400px;
+    margin-left: 75px;
   }
 
   .hero__text{
