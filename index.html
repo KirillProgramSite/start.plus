@@ -1,15 +1,97 @@
 <!DOCTYPE html>
-<html data-theme="mytheme" lang="ru">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- AOS Style -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Старт.Плюс</title>
 </head>
 
 <body>
 
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="wrapper">
+                        <div class="nav__logo">
+                            <a href="index.html">
+                                <img src="img/logo.svg" alt="">
+                            </a>
+                        </div>
+                        <ul class="nav__menu">
+                            <li><a href="">Организации ДО</a></li>
+                            <li><a href="">Выбор направления</a></li>
+                            <li><a href="">Выбор направления</a></li>
+                            <li><a href="">О нашем проекте </a></li>
+                        </ul>
+                        <div class="nav__buttons">
+                            <button class="reg__btn">Регистрация</button>
+                            <button class="signIn__btn">Войти</button>
+                        </div>
+                    </div>
+                
+            </nav>
+
+            <nav class="nav__mobile">
+                <div class="wrapper">
+                    <div class="nav__mobile-logo">
+                        <img src="img/logo.svg" alt="">
+                    </div>
+                    <div class="nav__mobile-menubtn">
+                        <img src="img/menu.svg" alt="">
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <!-- Content Block -->
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="hero__text">
+                        <h1>Открой своё будущее
+                            вместе с <span>Старт.Плюс!</span></h1>
+                        <p>Старт.Плюс - сервис, который поможет <span>тебе</span> определится
+                            с дополнительным образованием.</p>
+                        <button class="hero__btn">Выбери прямо сейчас</button>
+                    </div>
+                    <div data-aos="zoom-in-down" data-aos-duration="1000">
+                        <div class="hero__img">
+                            <img src="img/hero.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <nav class="menu__footer">
+            
+        </nav>
+    </footer>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/main.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
