@@ -52,23 +52,23 @@ table {
     font-family: "Ubuntu";
     font-weight: 400;
     src: 
-        url("/fonts/Ubuntu-Regular.ttf ") format("ttf"),
-        url("/fonts/Ubuntu-Regular.woff ") format("woff");
+        url("../fonts/Ubuntu-Regular.ttf ") format("ttf"),
+        url("../fonts/Ubuntu-Regular.woff ") format("woff");
 }
 
 @font-face {
     font-family: "Ubuntu";
     font-weight: 700;
     src: 
-        url("/fonts/Ubuntu-Medium.ttf") format("ttf"),
-        url("/fonts/Ubuntu-Medium.woff") format("woff");
+        url("../fonts/Ubuntu-Medium.ttf") format("ttf"),
+        url("../fonts/Ubuntu-Medium.woff") format("woff");
 }
 
 @font-face {
     font-family: "Nunito";
     src: 
-        url("/fonts/Nunito-Bold.ttf") format("ttf"),
-        url("/fonts/Nunito-Bold.woff ") format("woff");
+        url("../fonts/Nunito-Bold.ttf") format("ttf"),
+        url("../fonts/Nunito-Bold.woff ") format("woff");
 }
 
 /* Сommon Style */
