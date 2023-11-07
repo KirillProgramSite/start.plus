@@ -29,7 +29,7 @@ html {
 body {
     line-height: 1;
 }
-ol, ul {
+ul {
     list-style: none;
 }
 blockquote, q {
@@ -68,7 +68,7 @@ table {
     font-family: "Nunito";
     src: 
         url("/fonts/Nunito-Bold.ttf") format("ttf"),
-        url("/fonts/Nunito-Bold.woff") format("woff");
+        url("/fonts/Nunito-Bold.woff ") format("woff");
 }
 
 /* Сommon Style */
@@ -230,6 +230,7 @@ ul.nav__menu li a:hover{
 
 .hero__btn{
     padding: 20px 50px;
+    transition: .9s cubic-bezier(.17,.67,.23,1.3);
 
     border:none;
     cursor: pointer;
@@ -244,6 +245,104 @@ ul.nav__menu li a:hover{
     font-weight: 500;
     line-height: normal;
 }
+
+.hero__btn:hover{
+    background: #2192FF;
+}
+
+
+/* Choice */
+
+.choice{
+    margin-top: 500px;
+    height: 480px;
+    background: linear-gradient(113deg, #38E54D 2.18%, #9CFF2E 64.11%);
+}
+
+.choice .wrapper{
+    justify-content: start;
+    align-items: start;
+}
+
+.choice__text{
+    margin-top: 75px;
+}
+
+.choice__text h2{
+    width: 423px;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100.9%;
+
+    padding-bottom: 15px;
+}
+
+.choice__text p{
+    width: 349px;
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.choice__img img{
+    position: relative;
+    top: -200px;
+    width: 500px;
+}
+
+.choice__list{
+    margin-top: 75px; 
+}
+
+.choice__list h2{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.choice__list ol{
+    padding-top: 19px;
+}
+
+
+.choice__list ol li{
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.choice__btn{
+    border: none;
+    text-align: left;
+
+    cursor: pointer;
+    padding-left: 10px;
+    width: 235px;
+    height: 35px;
+
+    border-radius: 18px;
+    background: #2192FF;
+
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+ 
 
 
 /* Mobile Version */
@@ -265,6 +364,9 @@ ul.nav__menu li a:hover{
   }
 
   .nav__mobile{
+    overflow: hidden;
+    transition: .5s cubic-bezier(0.39, 0.575, 0.565, 1);
+    z-index: 999;
     background-color: white;
     position: fixed;
     width: 550px;
@@ -279,14 +381,48 @@ ul.nav__menu li a:hover{
     display: block;
   }
 
+    .open_menu {
+        transition: .5s cubic-bezier(0.39, 0.575, 0.565, 1);
+        height: 300px;
+    }
+
+    .menu__mobile{
+        padding-top: 39px;
+        padding-bottom: 16px;
+    }
+
+    .nav__mobile li a{
+        text-decoration: none;
+        color: #000;
+        font-family: Nunito;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
   .nav__mobile-logo img{
-    width: 250px;
+    width: 200px;
   }
 
   .nav__mobile-menubtn img{
     margin-top: 5px;
     margin-right: 5px;
     width: 40px;
+  }
+
+  .reg__btn{
+    font-size: 25px;
+    padding: 5px 0px;
+    padding-right: 50px;
+    padding-left: 10px;
+  }
+
+  .signIn__btn{
+    font-size: 25px;
+    padding: 6px 0px;
+    padding-right: 100px;
+    padding-left: 10px;
   }
 
   /* Hero Mobile */
@@ -312,4 +448,51 @@ ul.nav__menu li a:hover{
     font-size: 30px;
   }
 
+  /* Choice Mobile */
+
+  .choice{
+    width: 615px;
+    height: 1200px;
+  }
+
+  .choice__text{
+    text-align: center;
+    order: 1;
+  }
+
+  .choice__text h2{
+    padding-bottom: 30px;
+    font-size: 50px;
+    width: 500px;
+  }
+
+  .choice__text p{
+    font-size: 25px;
+    width: 500px;
+  }
+
+  .choice__list{ 
+    padding-left: 100px;
+    justify-content: center;
+    order: 2;
+  }
+
+  .choice__list h2{
+    font-size: 25px;
+  }
+
+  .choice__list ol li{
+    padding-bottom: 15px;
+    font-size: 25px;
+  }
+
+  .choice__img{
+    position: relative;
+    top: 252px;
+    order: 3;
+  }
+
+  .choice__img img{
+    width: 450px;
+  }
 } 
