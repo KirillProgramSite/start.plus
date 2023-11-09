@@ -1,9 +1,9 @@
 /* Zero Style */
 
-* {
+/* * {
     outline: 1px solid red;
     outline-offset: -1px;
-}
+} */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -357,7 +357,7 @@ ul.nav__menu li a:hover{
 
 
 /* Mobile Version */
-@media(max-width: 380px){
+@media(max-width: 400px){
   .container{
     width: 361px;
     margin-right: 0;
@@ -502,6 +502,175 @@ ul.nav__menu li a:hover{
   .choice__list{ 
     text-align: center;
     padding-left: 24px;
+    order: 2;
+  }
+
+  .choice__list h2{
+    font-size: 25px;
+  }
+
+  .choice__list ol li{
+    padding-bottom: 15px;
+    font-size: 20px;
+  }
+
+  .choice__img{
+    position: relative;
+    top: 245px;
+    left: 50px;
+    order: 3;
+  }
+
+  .choice__img img{
+    width: 298px;
+  }
+} 
+
+
+@media(max-width: 500px){
+  .container{
+    width: 400px;
+  }
+
+  main{
+    margin-top: 40px;
+  }
+
+
+
+  /* Header Mobile */
+  .nav {
+      display: none;
+  }
+
+  .nav__mobile{
+    overflow: hidden;
+    transition: .5s cubic-bezier(0.39, 0.575, 0.565, 1);
+    z-index: 999;
+    background-color: white;
+    position: fixed;
+    width: 364px;
+
+    padding: 10px 16px;
+    margin-bottom: 20px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 27px;
+    border: 1px solid #CACACA; 
+    display: block; 
+
+  }
+
+  .anim_shadow{
+    box-shadow: 0px 3px 10px 2px #38E54D;
+    transition: .5s cubic-bezier(0.39, 0.575, 0.565, 1);
+  }
+
+    .open_menu {
+        transition: .5s cubic-bezier(0.39, 0.575, 0.565, 1);
+        height: 350px;
+    }
+
+    .menu__mobile{
+        padding-top: 39px;
+        padding-bottom: 16px;
+    }
+
+    .nav__mobile li{
+        margin-bottom: 5px;
+    }
+
+    .nav__mobile li a{
+        text-decoration: none;
+        color: #000;
+        font-family: Nunito;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+  .nav__mobile-logo img{
+    width: 150px;
+  }
+
+  .nav__mobile-menubtn img{
+    margin-top: 10px;
+    margin-right: 5px;
+    width: 30px;
+  }
+
+  .reg__btn{
+    font-size: 25px;
+    padding: 5px 0px;
+    padding-right: 50px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .signIn__btn{
+    font-size: 25px;
+    padding: 6px 0px;
+    padding-right: 100px;
+    padding-left: 10px;
+  }
+
+  /* Hero Mobile */
+  .hero{
+    padding-top: 80px;
+  }
+
+
+  .hero__img img{
+    width: 300px;
+    margin-left: 47px;
+  }
+
+  .hero__text{
+    text-align: center;
+  }
+
+  .hero__text h1{
+    padding-bottom: 20px;
+    width: 400px;
+    font-size: 25px;
+  }
+
+  .hero__text p{
+    width: 400px;
+    font-size: 20px;
+  }
+
+  .hero__btn{
+    font-size: 20px;
+  }
+
+  /* Choice Mobile */
+
+  .choice{
+    /* width: 501px; */
+    height: 977px;
+  }
+
+  .choice__text{
+    text-align: center;
+    order: 1;
+  }
+
+  .choice__text h2{
+    width: 400px;
+    padding-bottom: 30px;
+    font-size: 25px;
+  }
+
+  .choice__text p{
+    font-size: 20px;
+    width: 400px;
+  }
+
+  .choice__list{ 
+    text-align: center;
+    padding-left: 40px;
     order: 2;
   }
 
