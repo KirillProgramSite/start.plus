@@ -52,8 +52,8 @@ table {
     font-family: "Ubuntu";
     font-weight: 400;
     src: 
-        url("../fonts/Ubuntu-Regular.ttf ") format("ttf"),
-        url("../fonts/Ubuntu-Regular.woff ") format("woff");
+        url("./fonts/Ubuntu-Regular.ttf ") format("ttf"),
+        url("./fonts/Ubuntu-Regular.woff ") format("woff");
 }
 
 @font-face {
