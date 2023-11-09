@@ -29,7 +29,7 @@ html {
 body {
     line-height: 1;
 }
-ul {
+ul, ol{
     list-style: none;
 }
 blockquote, q {
@@ -369,9 +369,9 @@ ul.nav__menu li a:hover{
     z-index: 999;
     background-color: white;
     position: fixed;
-    width: 550px;
+    width: 400px;
 
-    padding: 17px 16px;
+    padding: 10px 16px;
     margin-bottom: 20px;
     height: 52px;
     flex-shrink: 0;
@@ -391,24 +391,28 @@ ul.nav__menu li a:hover{
         padding-bottom: 16px;
     }
 
+    .nav__mobile li{
+        margin-bottom: 5px;
+    }
+
     .nav__mobile li a{
         text-decoration: none;
         color: #000;
         font-family: Nunito;
-        font-size: 25px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
     }
 
   .nav__mobile-logo img{
-    width: 200px;
+    width: 150px;
   }
 
   .nav__mobile-menubtn img{
-    margin-top: 5px;
+    margin-top: 10px;
     margin-right: 5px;
-    width: 40px;
+    width: 30px;
   }
 
   .reg__btn{
@@ -427,12 +431,12 @@ ul.nav__menu li a:hover{
 
   /* Hero Mobile */
   .hero{
-    padding-top: 50px;
+    padding-top: 80px;
   }
 
 
   .hero__img img{
-    width: 400px;
+    width: 300px;
     margin-left: 75px;
   }
 
@@ -441,18 +445,25 @@ ul.nav__menu li a:hover{
   }
 
   .hero__text h1{
-    width: 600px;
+    padding-bottom: 20px;
+    width: 440px;
+    font-size: 25px;
+  }
+
+  .hero__text p{
+    width: 455px;
+    font-size: 20px;
   }
 
   .hero__btn{
-    font-size: 30px;
+    font-size: 20px;
   }
 
   /* Choice Mobile */
 
   .choice{
     width: 615px;
-    height: 1200px;
+    height: 977px;
   }
 
   .choice__text{
@@ -462,17 +473,17 @@ ul.nav__menu li a:hover{
 
   .choice__text h2{
     padding-bottom: 30px;
-    font-size: 50px;
-    width: 500px;
+    font-size: 20px;
+    width: 350px;
   }
 
   .choice__text p{
-    font-size: 25px;
-    width: 500px;
+    font-size: 20px;
+    width: 350px;
   }
 
   .choice__list{ 
-    padding-left: 100px;
+    text-align: center;
     justify-content: center;
     order: 2;
   }
@@ -483,7 +494,7 @@ ul.nav__menu li a:hover{
 
   .choice__list ol li{
     padding-bottom: 15px;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .choice__img{
@@ -493,6 +504,6 @@ ul.nav__menu li a:hover{
   }
 
   .choice__img img{
-    width: 450px;
+    width: 350px;
   }
 } 
