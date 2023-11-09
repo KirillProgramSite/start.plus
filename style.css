@@ -60,15 +60,15 @@ table {
     font-family: "Ubuntu";
     font-weight: 700;
     src: 
-        url("../fonts/Ubuntu-Medium.ttf") format("ttf"),
-        url("../fonts/Ubuntu-Medium.woff") format("woff");
+        url("./fonts/Ubuntu-Medium.ttf") format("ttf"),
+        url("./fonts/Ubuntu-Medium.woff") format("woff");
 }
 
 @font-face {
     font-family: "Nunito";
     src: 
-        url("../fonts/Nunito-Bold.ttf") format("ttf"),
-        url("../fonts/Nunito-Bold.woff ") format("woff");
+        url("./fonts/Nunito-Bold.ttf") format("ttf"),
+        url("./fonts/Nunito-Bold.woff ") format("woff");
 }
 
 /* Сommon Style */
@@ -310,7 +310,7 @@ ul.nav__menu li a:hover{
 }
 
 .choice__list ol{
-    padding-top: 19px;
+    padding-top: 20px;
 }
 
 
@@ -321,6 +321,7 @@ ul.nav__menu li a:hover{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-bottom: 15px;
 }
 
 .choice__btn{
